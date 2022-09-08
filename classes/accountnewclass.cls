@@ -6,13 +6,7 @@ public class accountnewclass {
         System.debug('====='+c); return c;
     }
     
-    @AuraEnabled
-    public static List<Account> getAccount()
-    {
-        
-        List<Account> a = [select name,website,rating,ownership from account];
-        System.debug('====='+a); return a;
-    }
+   
     
     
     
